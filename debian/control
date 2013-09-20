@@ -1,0 +1,32 @@
+Source: kdesdk-strigi-analyzers
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.2),
+ libstreamanalyzer-dev (>= 0.6.3)
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdesdk-strigi-analyzers.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdesdk-strigi-analyzers.git
+
+Package: kdesdk-strigi-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: software development file format plugins for Strigi Desktop Search
+ These plugins allow Strigi Desktop Search to extract additional information
+ about some file formats often used in software development.
+ .
+ Strigi plugins are included for:
+  * Patch files (diff)
+  * Qt Linguist files (ts)
+  * Gettext translation files (po)
+  * XML localisation files (xliff)
+ .
+ This package is part of the KDE Software Development Kit module.
