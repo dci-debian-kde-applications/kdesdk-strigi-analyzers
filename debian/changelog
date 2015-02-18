@@ -1,9 +1,9 @@
-kdesdk-strigi-analyzers (4:14.12.2-1~) UNRELEASED; urgency=medium
+kdesdk-strigi-analyzers (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 18:49:52 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:01:16 +0100
 
 kdesdk-strigi-analyzers (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
