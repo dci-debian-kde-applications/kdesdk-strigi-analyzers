@@ -19,11 +19,11 @@ kdesdk-strigi-analyzers (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kdesdk-strigi-analyzers (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, remaining changes: 
+  * Debian merge, remaining changes:
    - Keep dbg package
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 02:06:08 +0000
