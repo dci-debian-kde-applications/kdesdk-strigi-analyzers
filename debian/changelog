@@ -1,3 +1,9 @@
+kdesdk-strigi-analyzers (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 18:49:52 +0100
+
 kdesdk-strigi-analyzers (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
