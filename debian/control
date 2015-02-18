@@ -13,10 +13,10 @@ Build-Depends: cmake,
                kdelibs5-dev,
                libstreamanalyzer-dev (>= 0.6.3),
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kdesdk-strigi-analyzers.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-strigi-analyzers.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kdesdk-strigi-analyzers.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kdesdk-strigi-analyzers.git
 
 Package: kdesdk-strigi-plugins
 Architecture: any
@@ -32,12 +32,15 @@ Description: software development file format plugins for Strigi Desktop Search
   * XML localisation files (xliff)
  .
  This package is part of the KDE Software Development Kit module.
- 
+
 Package: kdesdk-strigi-analyzers-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg, kdesdk-strigi-plugins (= ${binary:Version}) 
+Depends: kate-dbg,
+         kde-runtime-dbg,
+         kdesdk-strigi-plugins (= ${binary:Version}),
+         ${misc:Depends}
 Description: debugging symbols for the KDE Software Development Kit module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Software Development Kit module.
