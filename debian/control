@@ -18,6 +18,13 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kdesdk-strigi-analyzers.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-strigi-analyzers.git
 
+Package: kdesdk-strigi-plugins
+Architecture: any
+Depends: ${misc:Depends}
+Description: Strigi analyzer desktop search suite.
+ This package contains the kdesdk strigi analyzers plugins.
+ in the KDE Software Development Kit module.
+
 Package: kdesdk-strigi-analyzers-dbg
 Architecture: any
 Depends: kate-dbg,
