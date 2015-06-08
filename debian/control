@@ -20,7 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-strigi-analyze
 
 Package: kdesdk-strigi-plugins
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Strigi analyzer desktop search suite.
  This package contains the kdesdk strigi analyzers plugins.
  in the KDE Software Development Kit module.
