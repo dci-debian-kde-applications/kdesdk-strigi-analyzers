@@ -1,8 +1,9 @@
-kdesdk-strigi-analyzers (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kdesdk-strigi-analyzers (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 14:23:18 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 01 Oct 2015 10:42:16 -0700
 
 kdesdk-strigi-analyzers (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
