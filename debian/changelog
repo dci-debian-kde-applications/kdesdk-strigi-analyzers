@@ -1,6 +1,4 @@
-kdesdk-strigi-analyzers (4:14.12.2-2~2.gbp2d04a2) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @2d04a27fe4a795217b115ec9d4c5c52ce9cb9480 **
+kdesdk-strigi-analyzers (4:14.12.2-2) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
@@ -10,7 +8,7 @@ kdesdk-strigi-analyzers (4:14.12.2-2~2.gbp2d04a2) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Migrate dbg package to automatic dbgsym
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 21 May 2016 18:25:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 20:11:12 +0200
 
 kdesdk-strigi-analyzers (4:14.12.2-1) experimental; urgency=medium
 
