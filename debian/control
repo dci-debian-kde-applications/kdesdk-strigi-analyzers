@@ -32,15 +32,3 @@ Description: software development file format plugins for Strigi Desktop Search
   * XML localisation files (xliff)
  .
  This package is part of the KDE Software Development Kit module.
-
-Package: kdesdk-strigi-analyzers-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kate-dbg,
-         kde-runtime-dbg,
-         kdesdk-strigi-plugins (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for the KDE Software Development Kit module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE Software Development Kit module.
